@@ -10,8 +10,8 @@ public class DemoController {
     @Autowired
     private Coach myCoach;
 
-    @GetMapping("/dailyworkout")
+  /*@GetMapping("/dailyworkout")
     public String getDailyWorkout(){
         return myCoach.getDailyWorkout();
-    }
+    }*/
 }
